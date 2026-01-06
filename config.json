@@ -1,0 +1,31 @@
+{
+  "auth": {
+    "token": "sk-admin-123",
+    "ip_whitelist": []
+  },
+  "storage": {
+    "base_root": "/Users/ethan/FaceData",
+    "paths": {
+      "inputs": "inputs",
+      "staff_images": "images/staff",
+      "models": "models",
+      "vector_db": "vector_db"
+    }
+  },
+  "database": {
+    "collection_name": "staff_db"
+  },
+  "model": {
+    "name": "buffalo_l",
+    "root": "my_models",
+    "det_size": 640,
+    "ctx_id": 0,
+    "providers": ["CUDAExecutionProvider", "CPUExecutionProvider"]
+  },
+  "analysis": {
+    "threshold_verify": 0.60,
+    "threshold_cluster": 0.75,
+    "video_sample_interval": 1.0,
+    "min_cluster_samples": 3
+  }
+}

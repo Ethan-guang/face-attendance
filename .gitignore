@@ -1,0 +1,10 @@
+.venv/
+venv/
+my_models/
+data/
+inputs/
+__pycache__/
+*.pyc
+.DS_Store
+.idea/
+.vscode/
