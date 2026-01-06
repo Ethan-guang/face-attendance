@@ -1,7 +1,8 @@
+fastapi
+uvicorn
+pydantic
+opencv-python
+numpy
 insightface
 onnxruntime
-opencv-python
 chromadb
-numpy
-tqdm
-fastapi
